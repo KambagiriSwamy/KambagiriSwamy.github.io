@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 
 import { SharedModule } from './shared/shared.module';
 import { EmployeeModule } from './employee/employee.module';
-import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
