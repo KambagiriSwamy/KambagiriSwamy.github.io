@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import { SharedModule } from './shared/shared.module';
 import { EmployeeModule } from './employee/employee.module';
+import { UiModule } from './ui/ui.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { EmployeeModule } from './employee/employee.module';
     BrowserModule,
     AppRoutingModule,
     SharedModule,
-    EmployeeModule
+    EmployeeModule,
+    UiModule
   ],
   providers: [],
   bootstrap: [AppComponent]
